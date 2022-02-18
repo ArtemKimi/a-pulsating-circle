@@ -1,0 +1,21 @@
+html,
+body {
+	padding: 100px;
+}
+
+.pulse {
+	margin: 0 auto;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background: teal;
+	animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 teal;
+	}
+	75% {
+		box-shadow: 0 0 0 25px transparent;
+	}
+}
